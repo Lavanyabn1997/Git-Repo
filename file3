@@ -1,0 +1,101 @@
+Useful Git Commands
+
+
+1. git init
+Initializes a new Git repository in the current directory.
+
+git init
+2. git clone
+Creates a copy of an existing remote repository.
+
+git clone <repository-url>
+3. git status
+Displays the state of the working directory and the staging area. It shows which changes have been staged, which haven't, and which files are not being tracked by Git.
+
+git status
+4. git add
+Adds changes from the working directory to the staging area.
+
+git add <file>
+To add all changes:
+
+git add .
+5. git commit
+Records the changes in the staging area in the repository with a descriptive message.
+
+git commit -m "Your commit message"
+6. git log
+Shows the commit history for the current branch.
+
+git log
+7. git branch
+Lists all branches in the repository. The * indicates the current branch.
+
+git branch
+Creates a new branch:
+
+git branch <branch-name>
+8. git checkout
+Switches to a different branch or restores files in the working directory.
+
+git checkout <branch-name>
+9. git merge
+Merges changes from one branch into the current branch.
+
+git merge <branch-name>
+10. git pull
+Fetches changes from a remote repository and merges them into the current branch.
+
+git pull origin <branch-name>
+11. git push
+Uploads local commits to a remote repository.
+
+git push origin <branch-name>
+12. git remote
+Manages the set of tracked repositories.
+
+To add a new remote:
+
+git remote add <name> <url>
+13. git fetch
+Downloads objects and refs from another repository.
+
+git fetch
+14. git reset
+Resets the current HEAD to a specified state. It can be used to unstage changes or move the branch pointer.
+
+To unstage changes:
+
+git reset <file>
+15. git diff
+Shows changes between commits, commit and working tree, etc.
+
+To see changes in the working directory:
+
+git diff
+To see changes between the working directory and the index:
+
+git diff --cached
+16. git stash
+Temporarily shelves changes in the working directory that are not ready to be committed.
+
+git stash
+To apply stashed changes:
+
+git stash apply
+17. git tag
+Creates a tag to mark a specific point in the repository's history, typically used for releases.
+
+git tag <tag-name>
+18. git blame
+Shows who made changes to each line in a file.
+
+git blame <file>
+19. git reflog
+Records updates to the tip of branches. It’s useful for recovering lost commits.
+
+git reflog
+20. git rm
+Removes files from the working directory and the index.
+
+git rm <file>
