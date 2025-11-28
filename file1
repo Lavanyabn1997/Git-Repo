@@ -1,1 +1,14 @@
 Git is a distributed version control system used for tracking changes in source code and other files during software development. It allows multiple developers to collaborate on a project, track who made which changes, and revert to previous versions if needed.
+
+Key Git Concepts
+Repository (Repo): The central location where Git stores all project files, their complete history, and metadata. Each developer has a full local copy, enabling offline work.
+Working Directory: The local directory on your computer where you can edit files and work on the project.
+Staging Area (Index): A layer between the working directory and the repository. You use git add to select which changes (modified, added, or deleted files) from your working directory you want to include in the next commit.
+Commit: A snapshot of your project's staged changes at a specific point in time. Each commit has a unique identifier (a SHA-1 hash), a message describing the changes, a timestamp, and a reference to its parent commit(s), forming the project's history.
+Branch: An independent line of development. It is a lightweight pointer to a specific commit, allowing developers to work on new features or fixes in isolation without affecting the main codebase.
+Merge: The process of combining changes from one branch into another.
+Remote: A version of your repository hosted on a server (e.g., GitHub, GitLab, Bitbucket) that allows for collaboration and backup.
+Clone: To create a local copy of a remote repository on your machine.
+Push: To upload your local commits to a remote repository, making them available to others.
+Pull: To fetch changes from a remote repository and integrate (merge) them into your current local branch. This is essentially a fetch followed by a merge.
+Pull Request (or Merge Request): A mechanism (provided by hosting services like GitHub, not Git itself) for proposing changes and requesting that other team members review the code before it is merged into the main branch.
