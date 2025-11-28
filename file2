@@ -1,0 +1,7 @@
+Core Workflow
+A typical Git workflow involves these stages: 
+Modify files in your working directory.
+Stage specific changes using git add to prepare them for the next commit.
+Commit the staged changes to your local repository using git commit.
+Push the committed changes to the remote repository to share them with the team.
+Pull remote changes made by others to keep your local copy updated.
